@@ -1,16 +1,15 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App'
-import { AuthContextProvider } from './context/AuthContext'
-import { ChatContextProvider } from './context/ChatContext'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import { AuthContextProvider } from "./context/AuthContext";
+import { ChatContextProvider } from "./context/ChatContext";
+import "./styles/index.css";
 
-const rootHtml = document.getElementById('root')
+const rootHtml = document.getElementById("root");
 ReactDOM.createRoot(rootHtml).render(
-    <AuthContextProvider>
-        <ChatContextProvider>
-            <App />
-        </ChatContextProvider>
-    </AuthContextProvider>
-
-)
+  <AuthContextProvider>
+    <ChatContextProvider>
+      <App />
+    </ChatContextProvider>
+  </AuthContextProvider>
+);
