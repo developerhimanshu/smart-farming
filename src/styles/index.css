@@ -3,41 +3,26 @@
 @import "home.css";
 @import "contact.css";
 @import "sidebar.css";
-
+@import "chat.css";
 @import "media.css";
+
 * {
-  font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
-    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  letter-spacing: 0.5px;
   padding: 0;
   margin: 0;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .title-web {
   cursor: pointer;
 }
-main {
-  width: 70%;
-  display: flex;
-  justify-content: flex-end;
-}
 
 .footer-area {
-  position: absolute;
-  width: 100%;
-  /* bottom:0px; */
-  background-color: #000000;
   height: 15vh;
+  background-color: black;
   color: white;
+  font-family: "Helvetica Neue", sans-serif;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .community-parent-container {
@@ -150,44 +135,6 @@ main {
   height: 90%;
   display: flex;
   overflow: hidden;
-}
-
-.chat {
-  flex: 2;
-}
-
-.chats {
-  height: auto;
-  overflow-y: scroll;
-}
-
-.chatInfo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 70px;
-  background-color: #365b42;
-  color: white;
-  font-size: 20px;
-  padding-left: 12px;
-}
-.chatInfo > div {
-  display: flex;
-  align-items: center;
-}
-.user-img {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  padding: 10px;
-  object-fit: cover;
-}
-.chatIcons > img {
-  height: 20px;
-  width: 20px;
-  object-fit: cover;
-  margin: 10px;
-  cursor: pointer;
 }
 
 .messages {

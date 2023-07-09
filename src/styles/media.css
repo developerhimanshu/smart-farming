@@ -22,4 +22,51 @@
   .news-items li {
     padding: 10px;
   }
+  .partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .partners > div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header-navs {
+    display: none;
+  }
+  .partner-group > div {
+    width: 80%;
+    display: block;
+    height: auto;
+    width: 100vw;
+    border-radius: 16px;
+  }
+  .partners {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .partners > div {
+    height: 60%;
+    width: 60%;
+  }
+  .news > div {
+    width: 100vw;
+    border-radius: 15px;
+  }
+  .prd {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .product {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 700px) {
+  .hamburger {
+    display: none;
+  }
 }
