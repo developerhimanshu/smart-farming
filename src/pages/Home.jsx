@@ -45,16 +45,16 @@ export default function Home() {
         className="carousel"
       >
         <div>
-          <img src={i1} alt="" />
+          <img src={i1} alt="" id="carouselImg" />
         </div>
         <div>
-          <img src={i2} alt="" />
+          <img src={i2} alt="" id="carouselImg" />
         </div>
         <div>
-          <img src={i3} alt="" />
+          <img src={i3} alt="" id="carouselImg" />
         </div>
         <div>
-          <img src={i4} alt="" />
+          <img src={i4} alt="" id="carouselImg" />
         </div>
       </Carousel>
 

@@ -64,9 +64,35 @@
   .product {
     width: 40%;
   }
+  .navbar {
+    width: 90vw;
+  }
+  .logo-hav {
+    width: 50%;
+  }
+  .user {
+    width: 50%;
+    margin-left: -80px;
+  }
 }
 @media screen and (min-width: 700px) {
   .hamburger {
     display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .product {
+    min-width: 250px;
+  }
+  .navsMobi {
+    top: 10vh;
+  }
+  .partner-group {
+    margin-top: 60px;
+  }
+  .carousel,
+  #carouselImg {
+    height: 200px;
   }
 }
