@@ -1,2 +1,2 @@
 # smart-farming
-[Deployed Here] (https://smart-farming-app.netlify.app/)
+([Deployed Here](https://smart-farming-developerhimanshu1.vercel.app))
